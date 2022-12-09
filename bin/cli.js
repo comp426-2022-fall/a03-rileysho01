@@ -9,3 +9,5 @@ const argv = minimist(process.argv.slice(2));
 const result = roll(argv.sides, argv.dice, argv.rolls);
 
 console.log(JSON.stringify(result));
+
+export {default};
